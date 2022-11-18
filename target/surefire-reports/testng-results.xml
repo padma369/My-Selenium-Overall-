@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="14305" started-at="2022-11-03T04:37:34 PDT" finished-at="2022-11-03T04:37:48 PDT">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="14305" started-at="2022-11-03T04:37:34 PDT" finished-at="2022-11-03T04:37:48 PDT">
+      <class name="Excecise1.Log4jExampleOnNOPCom">
+        <test-method status="PASS" signature="launchApp()[pri:0, instance:Excecise1.Log4jExampleOnNOPCom@1a1d6a08]" name="launchApp" is-config="true" duration-ms="4235" started-at="2022-11-03T04:37:34 PDT" finished-at="2022-11-03T04:37:38 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method status="PASS" signature="verifyLogin()[pri:1, instance:Excecise1.Log4jExampleOnNOPCom@1a1d6a08]" name="verifyLogin" duration-ms="3563" started-at="2022-11-03T04:37:38 PDT" description="Login with valid user crednetails" finished-at="2022-11-03T04:37:42 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogin -->
+        <test-method status="PASS" signature="verifyAppTitle()[pri:2, instance:Excecise1.Log4jExampleOnNOPCom@1a1d6a08]" name="verifyAppTitle" duration-ms="23" started-at="2022-11-03T04:37:42 PDT" finished-at="2022-11-03T04:37:42 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAppTitle -->
+        <test-method status="PASS" signature="verifyLogout()[pri:3, instance:Excecise1.Log4jExampleOnNOPCom@1a1d6a08]" name="verifyLogout" duration-ms="1134" started-at="2022-11-03T04:37:42 PDT" finished-at="2022-11-03T04:37:43 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogout -->
+        <test-method status="PASS" signature="closingApp()[pri:0, instance:Excecise1.Log4jExampleOnNOPCom@1a1d6a08]" name="closingApp" is-config="true" duration-ms="5304" started-at="2022-11-03T04:37:43 PDT" finished-at="2022-11-03T04:37:48 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closingApp -->
+      </class> <!-- Excecise1.Log4jExampleOnNOPCom -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+  <suite name="Suite (0)" duration-ms="29817" started-at="2022-11-03T04:37:48 PDT" finished-at="2022-11-03T04:38:18 PDT">
+    <groups>
+    </groups>
+    <test name="ChromeTest" duration-ms="28170" started-at="2022-11-03T04:37:48 PDT" finished-at="2022-11-03T04:38:16 PDT">
+      <class name="Excecise1.AmzTestwithWebDriverManager">
+        <test-method status="PASS" signature="verifySearchFeature(java.lang.String)[pri:0, instance:Excecise1.AmzTestwithWebDriverManager@87f383f]" name="verifySearchFeature" duration-ms="28169" started-at="2022-11-03T04:37:48 PDT" finished-at="2022-11-03T04:38:16 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchFeature -->
+      </class> <!-- Excecise1.AmzTestwithWebDriverManager -->
+    </test> <!-- ChromeTest -->
+    <test name="EdgeTest" duration-ms="29817" started-at="2022-11-03T04:37:48 PDT" finished-at="2022-11-03T04:38:18 PDT">
+      <class name="Excecise1.AmzTestwithWebDriverManager">
+        <test-method status="PASS" signature="verifySearchFeature(java.lang.String)[pri:0, instance:Excecise1.AmzTestwithWebDriverManager@1060b431]" name="verifySearchFeature" duration-ms="29801" started-at="2022-11-03T04:37:48 PDT" finished-at="2022-11-03T04:38:18 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchFeature -->
+      </class> <!-- Excecise1.AmzTestwithWebDriverManager -->
+    </test> <!-- EdgeTest -->
+  </suite> <!-- Suite (0) -->
+</testng-results>

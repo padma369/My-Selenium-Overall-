@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="29979" started-at="2022-11-03T11:28:08Z" finished-at="2022-11-03T11:28:38Z">
+    <groups>
+    </groups>
+    <test name="ChromeTest" duration-ms="29322" started-at="2022-11-03T11:28:08Z" finished-at="2022-11-03T11:28:37Z">
+      <class name="Excecise1.AmzTestwithWebDriverManager">
+        <test-method status="PASS" signature="verifySearchFeature(java.lang.String)[pri:0, instance:Excecise1.AmzTestwithWebDriverManager@5b464ce8]" name="verifySearchFeature" duration-ms="29300" started-at="2022-11-03T04:28:08Z" finished-at="2022-11-03T04:28:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchFeature -->
+      </class> <!-- Excecise1.AmzTestwithWebDriverManager -->
+    </test> <!-- ChromeTest -->
+    <test name="EdgeTest" duration-ms="29978" started-at="2022-11-03T11:28:08Z" finished-at="2022-11-03T11:28:38Z">
+      <class name="Excecise1.AmzTestwithWebDriverManager">
+        <test-method status="PASS" signature="verifySearchFeature(java.lang.String)[pri:0, instance:Excecise1.AmzTestwithWebDriverManager@13969fbe]" name="verifySearchFeature" duration-ms="29953" started-at="2022-11-03T04:28:08Z" finished-at="2022-11-03T04:28:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchFeature -->
+      </class> <!-- Excecise1.AmzTestwithWebDriverManager -->
+    </test> <!-- EdgeTest -->
+  </suite> <!-- Suite -->
+</testng-results>
